@@ -1,0 +1,24 @@
+---
+name: POE-Component-WebService-HtmlKitCom-FavIconFromImage
+version: 0.001
+author:
+  - 'Zoffix Znet <zoffix@cpan.org>'
+abstract: non-blocking wrapper around WebService::HtmlKitCom::FavIconFromImage
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp: 1.04
+  POE: 0.9999
+  POE::Component::NonBlockingWrapper::Base: 0.001
+  WebService::HtmlKitCom::FavIconFromImage: 0.001
+build_requires:
+  Test::More: 0
+provides:
+  POE::Component::WebService::HtmlKitCom::FavIconFromImage:
+    file: lib/POE/Component/WebService/HtmlKitCom/FavIconFromImage.pm
+    version: 0.001
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
