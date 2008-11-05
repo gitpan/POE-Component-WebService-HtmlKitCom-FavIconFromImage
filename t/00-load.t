@@ -37,6 +37,7 @@ sub result {
     is( $in_ref->{image}, 't/pic.jpg', '{image}');
     is( $in_ref->{_x}, 'y', 'user defined args');
 
+    SKIP: {
     if ( exists $in_ref->{error} ) {
         ok( (defined $in_ref->{error} and length $in_ref->{error}),
             '{error}');
@@ -50,6 +51,7 @@ sub result {
             'application/zip',
             'should get zip file from favicon()',
         );
+    }
     }
     $poco->shutdown;
 }

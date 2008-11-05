@@ -1,5 +1,10 @@
 POE-Component-WebService-HtmlKitCom-FavIconFromImage
 
+The module is a non-blocking wrapper around
+L<WebService::HtmlKitCom::FavIconFromImage>
+which provides interface to generate favicons from regular images.
+What's a "favicon"? See L<http://en.wikipedia.org/wiki/Favicon>
+
 INSTALLATION
 
 To install this module, run the following commands:

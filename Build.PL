@@ -14,7 +14,7 @@ my $builder = Module::Build->new(
         'Carp'                                     => 1.04,
         'WebService::HtmlKitCom::FavIconFromImage' => 0.001,
         'POE'                                      => 0.9999,
-        'POE::Component::NonBlockingWrapper::Base' => 0.001,
+        'POE::Component::NonBlockingWrapper::Base' => 0.002,
     },
     add_to_cleanup      => [ 'POE-Component-WebService-HtmlKitCom-FavIconFromImage-*' ],
     create_makefile_pl => 'traditional',

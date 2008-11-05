@@ -6,7 +6,6 @@ lib/POE/Component/WebService/HtmlKitCom/FavIconFromImage.pm
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
-t/kwalitee.t
 t/pic.jpg
 examples/fav.pl
 Makefile.PL

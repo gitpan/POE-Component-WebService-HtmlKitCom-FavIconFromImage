@@ -9,7 +9,7 @@ WriteMakefile
           'VERSION_FROM' => 'lib/POE/Component/WebService/HtmlKitCom/FavIconFromImage.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'POE::Component::NonBlockingWrapper::Base' => '0.001',
+                           'POE::Component::NonBlockingWrapper::Base' => '0.002',
                            'WebService::HtmlKitCom::FavIconFromImage' => '0.001',
                            'POE' => '0.9999',
                            'Carp' => '1.04'

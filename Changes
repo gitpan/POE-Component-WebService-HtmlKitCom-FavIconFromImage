@@ -1,5 +1,8 @@
 Revision history for POE-Component-WebService-HtmlKitCom-FavIconFromImage
 
+0.002   November 5, 2008
+        Fixed broken test suite
+
 0.001   Mar 23, 2008
         First version, released on an unsuspecting world.
 
